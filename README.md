@@ -24,17 +24,16 @@ Funcionalidades principales
 Estructura del proyecto
 bash
 EA2-Sitio-Web-Dinamico/
-│
-├── index.html
-├── style.css
-├── data/
-│   └── products.json
-└── js/
-    ├── main.js
-    ├── productService.js
-    ├── cart.js
-    ├── storage.js
-    └── ui.js
+index.html
+style.css
+data/
+    products.json
+    js/
+        main.js
+        productService.js
+        cart.js
+        storage.js
+        ui.js
 
 Desafíos resueltos
 1. Separación de responsabilidades:
