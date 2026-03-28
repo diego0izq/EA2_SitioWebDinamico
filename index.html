@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechZone Store | EA2 Sitio Web Dinámico</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <h1>TechZone Store</h1>
+        <button id="cart-toggle" class="cart-button">🛒 Carrito (<span id="cart-count">0</span>)</button>
+      </nav>
+
+      <section class="hero-content">
+        <div>
+          <h2>Cátalogo</h2>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <aside class="panel filters-panel">
+      <h3>Filtros</h3>
+
+      <label for="search">Buscar producto</label>
+      <input type="text" id="search" placeholder="Ej. Laptop, mouse, monitor">
+
+      <label for="category">Categoría</label>
+      <select id="category">
+        <option value="all">Todas</option>
+      </select>
+
+      <label for="sort">Ordenar por</label>
+      <select id="sort">
+        <option value="default">Predeterminado</option>
+        <option value="price-asc">Precio: menor a mayor</option>
+        <option value="price-desc">Precio: mayor a menor</option>
+        <option value="name-asc">Nombre: A-Z</option>
+      </select>
+
+      <button id="clear-filters" class="secondary-button">Limpiar filtros</button>
+    </aside>
+
+    <section>
+      <div class="toolbar">
+        <div>
+          <h3>Productos disponibles</h3>
+          <p id="results-info" class="results-info">Cargando productos...</p>
+        </div>
+      </div>
+
+      <div id="products-grid" class="products-grid"></div>
+    </section>
+  </main>
+
+  <aside id="cart-sidebar" class="cart-sidebar hidden">
+    <div class="cart-header">
+      <h3>Mi carrito</h3>
+      <button id="close-cart" class="icon-button">✕</button>
+    </div>
+
+    <div id="cart-items" class="cart-items"></div>
+
+    <div class="cart-footer">
+      <p>Total: <strong id="cart-total">$0.00</strong></p>
+      <button id="clear-cart" class="danger-button">Vaciar carrito</button>
+    </div>
+  </aside>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

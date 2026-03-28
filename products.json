@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro 14",
+    "category": "Laptops",
+    "price": 18999,
+    "description": "Laptop ligera para estudio, programación y trabajo universitario.",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Mouse Inalámbrico X200",
+    "category": "Accesorios",
+    "price": 499,
+    "description": "Mouse ergonómico con conexión inalámbrica y batería de larga duración.",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Monitor UltraView 24",
+    "category": "Monitores",
+    "price": 3899,
+    "description": "Monitor Full HD ideal para productividad, clases y entretenimiento.",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Teclado Mecánico RGB",
+    "category": "Accesorios",
+    "price": 1299,
+    "description": "Teclado con switches mecánicos y retroiluminación personalizable.",
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Tablet Note 11",
+    "category": "Tablets",
+    "price": 6599,
+    "description": "Tablet versátil para apuntes, lectura y consumo multimedia.",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Audífonos Studio Beat",
+    "category": "Audio",
+    "price": 1499,
+    "description": "Audífonos cómodos con excelente calidad de sonido y micrófono.",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Bocina Smart Mini",
+    "category": "Audio",
+    "price": 999,
+    "description": "Bocina compacta Bluetooth con sonido claro y portátil.",
+    "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Webcam HD Pro",
+    "category": "Accesorios",
+    "price": 899,
+    "description": "Webcam ideal para videollamadas, clases y reuniones en línea.",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+  }
+]
