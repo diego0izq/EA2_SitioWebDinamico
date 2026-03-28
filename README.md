@@ -65,7 +65,7 @@ Tecnologías utilizadas
 - LocalStorage
 - Fetch API
 
-## Autor
+Autor
 Nombre del alumno: Diego Avalos Izquierdo  
 Materia: Programación Web 
 Semestre: 4to Semestre
