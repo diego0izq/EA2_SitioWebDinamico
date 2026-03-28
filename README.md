@@ -53,13 +53,13 @@ Desafíos resueltos
 4. Experiencia del usuario:
    - Se añadieron filtros, ordenamiento, notificaciones y diseño adaptable a celular.
 
-## Cómo ejecutar el proyecto
+Cómo ejecutar el proyecto
 1. Descarga o clona el repositorio.
 2. Abre la carpeta del proyecto en Visual Studio Code.
 3. Ejecuta el proyecto con una extensión como Live Server.
 4. Verifica que cargue correctamente el archivo products.json.
 
-## Tecnologías utilizadas
+Tecnologías utilizadas
 - HTML5
 - CSS3
 - JavaScript (ES6 Modules)
